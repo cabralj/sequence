@@ -1,0 +1,15 @@
+
+body {
+	font-family:Courier;
+}
+
+input {
+	font-size: xx-large;
+}
+
+.console {
+	font-size: normal;
+	padding:10px;
+	border:1px solid #000;
+
+}
