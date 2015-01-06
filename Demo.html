@@ -1,0 +1,54 @@
+<html>
+<head>
+
+	<title></title>
+
+	<link rel="stylesheet" type="text/css" href="./css/1140.css">
+	<link rel="stylesheet" type="text/css" href="./css/site.css">
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="./js/sequence.js" ></script>
+
+	<script type="text/javascript">
+	$(function() {
+
+		var inn = $("#input");
+		var out = $("#output");
+
+		$("#input").bind("change", function() {
+			Sequence.getInput($(inn).val());
+		});
+		
+		Sequence.init(inn,out);
+
+	});
+
+	</script>
+
+</head>
+
+
+<body>
+
+<div class="console">
+	<input id="input" style="font-size:36pt;padding:10px;"/>
+</div>
+
+<div style="display:inline:float:left;">
+	<div id="output"  class="console"></div>
+</div>
+<div style="display:inline:float:left;">
+
+</div>
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
